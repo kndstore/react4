@@ -27,9 +27,9 @@ export default function Content(prpps) {
        
        ` }
          </style>
-          className='div3'
+         
            <img src="" alt="" />
-        <div  >
+        <div   className='div3'>
         <input  onChange={recuperer1}  type="text" name="v1" id="" value={v1}/>
         <input  onChange={recuperer2} type="text" name="v2" id="" value={v2}/>
         <button className='bg-yellow-500' type="button" onClick={calculer}>calculer</button>
