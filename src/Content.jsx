@@ -27,14 +27,14 @@ export default function Content(prpps) {
        
        ` }
          </style>
-          
+          className='div3'
            <img src="" alt="" />
-        
+        <div  >
         <input  onChange={recuperer1}  type="text" name="v1" id="" value={v1}/>
         <input  onChange={recuperer2} type="text" name="v2" id="" value={v2}/>
         <button className='bg-yellow-500' type="button" onClick={calculer}>calculer</button>
         <input type="text" name="v3" id="" value={resultat}/>
-       
+        </div>
         <div  style={monstyle}>
          <p className='A'> style form script </p>
          <p className='B'>import file.css</p>
