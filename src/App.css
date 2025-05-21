@@ -45,3 +45,8 @@
   color: rgb(2, 87, 7);
   font-size: xx-large;
 }
+.div3{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
